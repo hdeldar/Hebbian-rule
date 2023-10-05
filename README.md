@@ -13,11 +13,11 @@
 - Set the corresponding output value to the output neuron, i.e. `y = t`.
 - Update weight and bias by applying Hebb rule for all `i = 1 to n`:
 
-![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/499a6d53-cea5-4048-84b4-708d81e1a567)
+![image](https://github.com/hdeldar/Hebbian-rule/blob/main/assets/1.png)
 
 ### Implementing AND gate using Hebb Rule
 
-![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/7653fc5a-ae1e-4223-8f68-068f4c1dd527)
+![image](https://github.com/hdeldar/Hebbian-rule/blob/main/assets/2.png)
 
 - There are 4 training samples, so there will be 4 iterations. Also, the activation function used here is Bipolar Sigmoidal Function so the range is [-1,1]. 
 - Step 1 : 
@@ -53,7 +53,7 @@ For the second iteration, the final weight of the first one will be used and so 
 	
  So, the final weight matrix is [ 2 2 -2 ]T
 
-![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/20c3fb04-4126-4a38-a609-167ad054a7f8)
+![image](https://github.com/hdeldar/Hebbian-rule/blob/main/assets/3.png)
 
 #### `Decision Boundary` : 
 	
@@ -63,4 +63,4 @@ For the second iteration, the final weight of the first one will be used and so 
 	2( x1 + x2 ) = 2
 	The final equation,        x2 = -x1 + 1
 
-![image](https://github.com/Siddhipatade/Hebbian-rule/assets/91780318/ea45f965-1091-4ced-bf6d-f5db411a2eb1)
+![image](https://github.com/hdeldar/Hebbian-rule/blob/main/assets/4.png)
